@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>真田幸村｜战国数字博物馆</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+      background: #111;
+      color: #f5f5f5;
+      line-height: 1.7;
+    }
+
+    .hero {
+      min-height: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background:
+        radial-gradient(circle at center, #8b1118 0%, #351014 45%, #111 75%);
+    }
+
+    .kamon {
+      font-size: 52px;
+      letter-spacing: 8px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 46px;
+    }
+
+    .hero h2 {
+      margin: 8px 0;
+      font-size: 20px;
+      font-weight: normal;
+      letter-spacing: 4px;
+      color: #d7b46a;
+    }
+
+    .subtitle {
+      margin-top: 20px;
+      color: #ccc;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 45px 22px 80px;
+    }
+
+    section {
+      margin-bottom: 55px;
+    }
+
+    h3 {
+      font-size: 25px;
+      border-left: 4px solid #9b1c24;
+      padding-left: 13px;
+    }
+
+    .card {
+      background: #1b1b1b;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 15px 0;
+    }
+
+    .timeline {
+      border-left: 2px solid #7d1b21;
+      margin-left: 10px;
+      padding-left: 25px;
+    }
+
+    .event {
+      margin: 25px 0;
+    }
+
+    .year {
+      color: #d7b46a;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .explore {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .explore div {
+      background: #1b1b1b;
+      border: 1px solid #333;
+      padding: 18px;
+      border-radius: 10px;
+    }
+
+    .coming {
+      color: #999;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      border-top: 1px solid #333;
+      padding: 35px 20px;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        min-height: 360px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .kamon {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div>
+      <div class="kamon">● ● ●<br>● ● ●</div>
+
+      <h1>真田幸村</h1>
+      <h2>SANADA YUKIMURA</h2>
+
+      <p class="subtitle">
+        从一件战国主题商品，进入它背后的历史世界
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h3>真田幸村是谁？</h3>
+
+      <div class="card">
+        <p>
+          真田信繁（后世广泛以“真田幸村”之名为人熟知），
+          是日本战国末期至江户初期的重要武将之一。
+        </p>
+
+        <p>
+          这个测试页面将逐步连接人物、家族、合战、城郭、
+          家纹与历史时间线。
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h3>人物时间线</h3>
+
+      <div class="timeline">
+
+        <div class="event">
+          <div class="year">1567</div>
+          <div>出生。</div>
+        </div>
+
+        <div class="event">
+          <div class="year">1600</div>
+          <div>关原之战前后的真田氏分裂与九度山时期。</div>
+        </div>
+
+        <div class="event">
+          <div class="year">1614</div>
+          <div>大坂冬之阵，真田丸成为其生涯的重要历史节点。</div>
+        </div>
+
+        <div class="event">
+          <div class="year">1615</div>
+          <div>大坂夏之阵。</div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h3>六文钱</h3>
+
+      <div class="card">
+        <p>
+          六文钱是与真田氏密切相关、今天辨识度极高的历史符号之一。
+        </p>
+
+        <p class="coming">
+          后续这里将加入六文钱的历史来源、使用背景与史料说明。
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h3>继续探索</h3>
+
+      <div class="explore">
+        <div>真田昌幸<br><span class="coming">即将开放</span></div>
+        <div>上田合战<br><span class="coming">即将开放</span></div>
+        <div>九度山<br><span class="coming">即将开放</span></div>
+        <div>真田丸<br><span class="coming">即将开放</span></div>
+        <div>大坂冬之阵<br><span class="coming">即将开放</span></div>
+        <div>大坂夏之阵<br><span class="coming">即将开放</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h3>真田系列</h3>
+
+      <div class="card">
+        <strong>真田六文钱氛围灯</strong>
+        <p>
+          实体商品将在这里与人物历史内容连接。
+        </p>
+        <span class="coming">Product experience coming soon</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    SENGOKU DIGITAL MUSEUM · PROTOTYPE V0.01
+    <br>
+    战国数字博物馆 · 测试版
+  </footer>
+
+</body>
+</html>
